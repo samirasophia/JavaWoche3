@@ -34,6 +34,7 @@ ElectronicDevice keyboard = new ElectronicDevice();
     kawaski.setTires(2);
     kawaski.setModell("Kawaski man");
     printMotorrad(kawaski);
+    bmw.printData();
     }
 
     public static void printElectronicDevice(ElectronicDevice a){
@@ -47,5 +48,8 @@ ElectronicDevice keyboard = new ElectronicDevice();
     }
     public static void printMotorrad(Motorrad a){
         System.out.println(a.Art);
+    }
+    public static void printFahrzeug(Fahrzeug a){
+
     }
 }

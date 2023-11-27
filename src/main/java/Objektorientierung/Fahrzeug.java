@@ -28,4 +28,9 @@ public class Fahrzeug {
     String Hersteller;
     String Modell;
     int Baujahr;
+
+    public void printData(){
+        System.out.println(Baujahr);
+    }
 }
+
