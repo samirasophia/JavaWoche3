@@ -2,8 +2,13 @@ package Objektvererbung;
 
 import Objektvererbung.Interfaces.Playable;
 
-public class MediaController extends VideoPlayer implements Playable {
+public class MediaController {
 
-    public void playMedia() {
-        System.out.println("spiel Video und Musik ab");
-}}
+
+    public void playMedia(Playable media) {
+
+        media.print();
+
+        }
+
+}

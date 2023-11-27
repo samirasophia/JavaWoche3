@@ -2,17 +2,17 @@ package Objektvererbung;
 
 import Objektvererbung.Interfaces.Playable;
 
-public class MusicPlayer extends VideoPlayer implements Playable {
+public class MusicPlayer implements Playable {
 
 
-    public void playMusic() {
+
+
+
+    @Override
+    public void print() {
         System.out.println("spiel musik ab");
     }
-
-
-
-
-    }
+}
 
 
 

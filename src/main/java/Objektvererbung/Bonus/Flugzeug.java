@@ -11,4 +11,10 @@ public class Flugzeug {
 
     String zc;
 
+    @Override
+    public String toString() {
+        return "Flugzeug{" +
+                "zc='" + zc + '\'' +
+                '}';
+    }
 }
