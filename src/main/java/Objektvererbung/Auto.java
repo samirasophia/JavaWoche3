@@ -1,4 +1,4 @@
-package Objektorientierung;
+package Objektvererbung;
 
 public class Auto extends Fahrzeug{
     public int getTüren() {

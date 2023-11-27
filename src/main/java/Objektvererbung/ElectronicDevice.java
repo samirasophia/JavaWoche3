@@ -1,4 +1,4 @@
-package Objektorientierung;
+package Objektvererbung;
 
 public class ElectronicDevice {
     public double getPrice() {

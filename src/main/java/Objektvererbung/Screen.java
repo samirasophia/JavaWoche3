@@ -1,7 +1,10 @@
-package Objektorientierung;
+package Objektvererbung;
 
-public class Screen extends ElectronicDevice{
-    public int getResolutionX() {
+import Objektvererbung.Interfaces.CanBeHifi;
+
+public class Screen extends ElectronicDevice implements CanBeHifi {
+
+    public int getResolutionX()  {
         return resolutionX;
     }
 
@@ -28,4 +31,19 @@ public class Screen extends ElectronicDevice{
     private int resolutionX;
     private int resolutionY;
     private int inch;
+
+    public boolean isHifi() {
+        return hifi;
+    }
+
+    @Override
+    public void setHifi(boolean hifi) {
+        this.hifi = hifi;
+    }
+
+    private boolean hifi;
+
+    public boolean getHifi(){
+        return hifi;
+    }
 }

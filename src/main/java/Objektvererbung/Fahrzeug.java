@@ -1,4 +1,4 @@
-package Objektorientierung;
+package Objektvererbung;
 
 public class Fahrzeug {
     public String getHersteller() {

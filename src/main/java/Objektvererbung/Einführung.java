@@ -1,4 +1,6 @@
-package Objektorientierung;
+package Objektvererbung;
+
+import Objektvererbung.Interfaces.CanBeHifi;
 
 public class Einführung {
     public static void main(String[] args) {
@@ -35,6 +37,11 @@ ElectronicDevice keyboard = new ElectronicDevice();
     kawaski.setModell("Kawaski man");
     printMotorrad(kawaski);
     bmw.printData();
+    //Interface
+        CanBeHifi something = smartTv;
+        CanBeHifi meow = new Screen();
+        meow.setHifi(true);
+        smartTv.setHifi(true);
     }
 
     public static void printElectronicDevice(ElectronicDevice a){

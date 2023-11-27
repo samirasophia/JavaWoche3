@@ -1,4 +1,4 @@
-package Objektorientierung;
+package Objektvererbung;
 
 public class Motorrad extends Fahrzeug{
     public int getTires() {
