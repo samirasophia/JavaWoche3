@@ -23,10 +23,11 @@ public class Uno {
             System.out.println(stapel);
             System.out.println("Player 1: " + player1);
             System.out.println("Player 2: " + player2);
-            for (String meow:player2
-                 ) {
-                if (stapel.equals())
+            for (String meow : player2
+            ) {
+                if (stapel.getLast().equalsIgnoreCase(meow.toLowerCase())) {
 
+                }
             }
         }
 
@@ -78,7 +79,7 @@ public class Uno {
     public static ArrayList<String> erstelleUnoKarten() {
         ArrayList<String> unoKartenSet = new ArrayList<>();
 
-        String[] farben = {"Rot", "Blau", "Grün", "Gelb"};
+        String[] farben = {"Rot", "Blau", "Violet", "Gelb"};
         String[] werte = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "Aussetzen", "Richtungswechsel", "+2"};
 
         for (String farbe : farben) {
