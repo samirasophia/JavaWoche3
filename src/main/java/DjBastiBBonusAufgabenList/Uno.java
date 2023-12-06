@@ -25,8 +25,12 @@ public class Uno {
             System.out.println("Player 2: " + player2);
             for (String meow : player2
             ) {
-                if (stapel.getLast().equalsIgnoreCase(meow.toLowerCase())) {
-
+                String letzteKarte = stapel.getLast();
+                char brrr = letzteKarte.charAt(0);
+                char meoww = meow.charAt(0);
+                if (brrr == meoww) {
+                    player1.remove(meow);
+                    System.out.println(player1);
                 }
             }
         }
